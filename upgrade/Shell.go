@@ -7,8 +7,8 @@ import (
 
 func Shell() {}
 
-func ShellCall (in string) {
-	cmd := strings.Split(in," ")
+func ShellCall(in string) {
+	cmd := strings.Split(in, " ")
 	switch cmd[0] {
 	case "apk":
 		fmt.Println("Alpine pkg manager check")

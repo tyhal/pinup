@@ -17,12 +17,12 @@ func main() {
 	filename := os.Args[1]
 	fmt.Println("Opening " + filename)
 
-	fileIn,err := os.Open(filename)
+	fileIn, err := os.Open(filename)
 
 	if err != nil {
 		log.Fatal("Couldnt open " + filename)
 	}
 	defer fileIn.Close()
 
-	upgrade.Docker(fileIn,os.Stdout)
+	upgrade.Docker(fileIn, os.Stdout)
 }
