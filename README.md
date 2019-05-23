@@ -5,9 +5,11 @@ Upgrade your docker pinned dependencies
 Currently it is going over all the relevant lines
 
     Go pkg manager... no check
-    Line 42 can use: latest
+    ...
+    Line 42 can use: alpine:3.9.4
     Alpine pkg manager check
-    Line 45 can use: latest
+    ...
+    Line 45 can use: alpine:3.9.4
     Alpine pkg manager check
 
 Since I have this info, I can:

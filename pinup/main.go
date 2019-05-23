@@ -24,5 +24,5 @@ func main() {
 	}
 	defer fileIn.Close()
 
-	upgrade.Docker(fileIn, os.Stdout)
+	upgrade.Docker(fileIn)
 }
