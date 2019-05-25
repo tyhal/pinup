@@ -1,8 +1,8 @@
 # pinup
 
-Github has the functionality in this tool
+Github has the functionality in this tool: https://dependabot.com/
 
-https://dependabot.com/blog/hello-github/
+However it doesn't upgrade the dependencies installed on RUN lines and doesn't run on Gitlab :(
 
 ---
 
