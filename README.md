@@ -1,5 +1,11 @@
 # pinup
 
+Github has the functionality in this tool
+
+https://dependabot.com/blog/hello-github/
+
+---
+
 Upgrade your docker pinned dependencies
 
 Currently it is going over all the relevant lines
