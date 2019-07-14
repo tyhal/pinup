@@ -10,6 +10,7 @@ import (
 // TODO use cobra lib for CLI
 
 func main() {
+
 	if len(os.Args) != 2 {
 		log.Fatal("usage: pinup <Dockerfile>")
 	}

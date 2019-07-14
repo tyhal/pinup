@@ -1,10 +1,19 @@
 # pinup
 
-Github has the functionality in this tool: https://dependabot.com/
+Github has the functionality in this tool: <https://dependabot.com/>
 
 However it doesn't upgrade the dependencies installed on RUN lines and doesn't run on Gitlab :(
 
----
+* * *
+
+## Run Me
+
+```bash
+    script/bootstrap
+    script/test
+```
+
+* * *
 
 Upgrade your docker pinned dependencies
 

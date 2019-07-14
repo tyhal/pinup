@@ -102,10 +102,11 @@ func fromStatement(curNode *parser.Node) {
 }
 
 func Docker(file *os.File) {
+
 	res, err := parser.Parse(file)
 
 	if err != nil {
-		log.Fatal("Could not parse")
+		log.Fatal("Could not parse" + err.Error())
 	}
 
 	node := res.AST.Children

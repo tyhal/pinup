@@ -1,1 +1,8 @@
+#!/bin/sh
+set -e
 
+cd "$(dirname "$0")/.."
+
+# TODO(tyhal) 19-07-14 - Don't use docker just use go build
+docker build -t pinup .
+docker run -t --user "$(id -u)":"$(id -g)" --rm -v "$(pwd)"/:/proj/ pinup /proj/Dockerfile
