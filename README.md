@@ -1,4 +1,6 @@
 # pinup
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftyhal%2Fpinup.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftyhal%2Fpinup?ref=badge_shield)
+
 
 Github has the functionality in this tool: <https://dependabot.com/>
 
@@ -33,3 +35,7 @@ Since I have this info, I can:
 -   Search alpines package manager for versions
 
 This will involve possibly making a GO api for each repo
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftyhal%2Fpinup.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftyhal%2Fpinup?ref=badge_large)
