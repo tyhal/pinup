@@ -1,4 +1,4 @@
-FROM golang:1.12.7-alpine3.10 as pinup_build
+FROM golang:1.12.9-alpine3.10 as pinup_build
 RUN apk --no-cache add git
 ENV PINUP github.com/tyhal/pinup
 COPY pinup /go/src/$PINUP/pinup
