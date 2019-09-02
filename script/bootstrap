@@ -1,4 +1,10 @@
 #!/bin/sh
 set -e
 
-snap install --classic go
+# TODO make dynamic / find someone who has
+VERSION=1.12.9
+ARCH=amd64
+OS=linux
+
+wget -O /tmp/go.tar.gz https://dl.google.com/go/go$VERSION.$OS-$ARCH.tar.gz
+tar -C /usr/local -xzf /tmp/go.tar.gz
