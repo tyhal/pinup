@@ -1,4 +1,4 @@
-FROM golang:1.12.9-alpine3.10 as pinup_build
+FROM golang:1.13.4-alpine3.10 as pinup_build
 RUN apk --no-cache add git
 COPY main.go /pinup/main.go
 COPY go.mod /pinup/go.mod
